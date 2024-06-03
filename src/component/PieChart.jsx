@@ -77,7 +77,7 @@ const PieChart = () => {
                 </div>
             </div>
 
-            <div className='flex w-full justify-start px-8 space-x-2 mb-8'>
+            <div className='flex flex-wrap w-full justify-start px-8 space-x-2 mb-8'>
                 <div className='flex'>
                     <div className='m-auto w-4 h-4 rounded-full bg-[#213453] mr-1'></div>
                     <div className='text-white text-xs'>alerts</div>
