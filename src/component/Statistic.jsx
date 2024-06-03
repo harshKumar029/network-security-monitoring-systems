@@ -36,8 +36,8 @@ const Statistic = () => {
                         <h3 className='text-[#748291] font-semibold'>Active UDP</h3>
                         <h5 className='text-white font-semibold text-[3rem]'>{udpCount}</h5>
                         <div className='relative w-16 flex justify-center items-center'>
-                            <div className='absolute inset-0 rounded-[7px] bg-[#1AFF91] opacity-30'></div>
-                            <p className='relative text-[#3DFF67] pr-2 z-10'>{udpPercentage}%</p>
+                            <div className='absolute inset-0 rounded-[7px] bg-[#FF1A1A] opacity-30'></div>
+                            <p className='relative text-[#FF1A1A] pr-2 z-10'>{udpPercentage}%</p>
                         </div>
                     </div>
                     <img className='absolute right-0 bottom-0 w-40' src={RedChart} alt='chart_img' />
